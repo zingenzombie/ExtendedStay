@@ -8707,6 +8707,94 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1094013743}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1102563777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102563780}
+  - component: {fileID: 1102563779}
+  - component: {fileID: 1102563778}
+  m_Layer: 0
+  m_Name: Butterflies (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1102563778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102563777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1102563779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102563777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa35b9623162614881082335023629b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 4, y: 7}
+  debug: 0
+  flockNum: 10
+  fragmentedFlock: 300
+  fragmentedFlockYLimit: 0.041
+  migrationFrequency: 0.035
+  posChangeFrequency: 0.7
+  smoothChFrequency: 20
+  birdPref: {fileID: 3509250616930223806, guid: 94627e1867eb31e4583550292fbbb516,
+    type: 3}
+  birdsNum: 50
+  birdSpeed: 0.6
+  fragmentedBirds: 30
+  fragmentedBirdsYLimit: 0.062
+  soaring: 0.6
+  verticalWawe: 30
+  rotationClamp: 0
+  rotationClampValue: 50
+  scaleRandom: {x: 0.4, y: 0.8}
+  danger: 0
+  dangerRadius: 2
+  dangerSpeed: 1.5
+  dangerSoaring: 0.5
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  HelpURL: nvjob.github.io/unity/nvjob-boids
+  ReportAProblem: nvjob.github.io/support
+  Patrons: nvjob.github.io/patrons
+--- !u!4 &1102563780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102563777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 524.4, y: 7.25, z: 553.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1108475705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9918,7 +10006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274440575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 472.31, y: 12.84, z: 548.14}
+  m_LocalPosition: {x: 480.79, y: 12.84, z: 548.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10292,6 +10380,94 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1339647257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1347816219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347816222}
+  - component: {fileID: 1347816221}
+  - component: {fileID: 1347816220}
+  m_Layer: 0
+  m_Name: Butterflies (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1347816220
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347816219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1347816221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347816219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa35b9623162614881082335023629b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  behavioralCh: {x: 4, y: 7}
+  debug: 0
+  flockNum: 10
+  fragmentedFlock: 300
+  fragmentedFlockYLimit: 0.041
+  migrationFrequency: 0.035
+  posChangeFrequency: 0.7
+  smoothChFrequency: 20
+  birdPref: {fileID: 3509250616930223806, guid: 94627e1867eb31e4583550292fbbb516,
+    type: 3}
+  birdsNum: 50
+  birdSpeed: 0.6
+  fragmentedBirds: 30
+  fragmentedBirdsYLimit: 0.062
+  soaring: 0.6
+  verticalWawe: 30
+  rotationClamp: 0
+  rotationClampValue: 50
+  scaleRandom: {x: 0.4, y: 0.8}
+  danger: 0
+  dangerRadius: 2
+  dangerSpeed: 1.5
+  dangerSoaring: 0.5
+  dangerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  HelpURL: nvjob.github.io/unity/nvjob-boids
+  ReportAProblem: nvjob.github.io/support
+  Patrons: nvjob.github.io/patrons
+--- !u!4 &1347816222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347816219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 534.3, y: -7.2, z: 485.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353310576
 GameObject:
   m_ObjectHideFlags: 0
