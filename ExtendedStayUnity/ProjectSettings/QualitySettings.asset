@@ -220,7 +220,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: d444144e5222a405091cecc712906303,
+    customRenderPipeline: {fileID: 11400000, guid: f48f873ae78af40b9a7b8220a8c6f95f,
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
@@ -231,7 +231,7 @@ QualitySettings:
     PS4: 5
     PS5: 5
     PSP2: 2
-    Server: 0
+    Server: 5
     Stadia: 5
     Standalone: 5
     WebGL: 3
